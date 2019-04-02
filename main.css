@@ -8,12 +8,108 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	height: 100%;
+}
 
+body, a, p, {
+	font-family : arial, sans-serif;
+}
+
+.navbar {
+	display: flex;
+	align-items: row;
+	justify-content: flex-end;
+	font-size: 15px;
+}
+
+.navbar div {
+	padding-left: 15px;
+}
+
+.a {
+	display: flex;
+	
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+input {
+	width: 580px;
+	height: 40px;
+	border: none;
+	border-radius: 25px;
+	border: solid 1px #ccc;
+	
+}
+
+input:hover {
+	border: none;
+	box-shadow: 2px 2px 2px #ccc;
+}
+
+.buttons {
+	display: flex;
+	margin: 18px;	
+}
+
+button {
+	background-color: #f8f8f8;	
+	font-size: 14px;
+	padding: 0 16px;
+	border-radius: 4px;
+	margin: 11px 4px;
+	height: 36px;
+	line-height: 27px;
+	text-align: center;
+}
+
+button:hover {
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 
 footer {
 	display: flex;
-	align-items: : flex-end;
+	flex-direction: column;
+	background-color : #f2f2f2;
+	font-size: 12px;
+	border-top: 1px solid #c6c6c6;
+	width: 100%;
+	color: rgba(0,0,0,.54);
+	font-size: 18px;
+
+}
+
+.country {
+	padding-left: 30px;
+}
+
+.infoblock {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+
+.info, .info2 {
+	display: flex;
+	flex-direction: row;
+}
+
+.info div {
+	padding-left: 15px;
+
+}
+
+.info2 div {
+	padding-right: 15px;
 }
 
 
@@ -27,6 +123,11 @@ a:hover {
 	text-decoration: underline;
 }
 
+img {
+	width: 272px;
+	height: 92px;
+}
 
-
-
+form {
+	margin-top: 18px;
+}
